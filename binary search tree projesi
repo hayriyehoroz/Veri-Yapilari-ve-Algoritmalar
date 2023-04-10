@@ -1,0 +1,22 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+root: 7 
+7den büyük olanlar sağına küçük olanlar soluna yazılır;
+      
+
+        [ 7 ]      
+        /   \  
+     [5]    [8]      5 7nin soluna 8 7ninsağına yazılır. 
+     / \       \       
+   [1] [6]     [9]   5ten küçük olan 1 5in soluna 6 sağına |8den büyük olan 9 8in sağına
+   / \              
+  [0] [3]            1den küçük olan o sola 3 sağa     
+      /  \      
+    [2]  [4]         3den küçük olan 2 sola 4 sağa yazılır.
+    
+     
+
+
+       
+       
+       
