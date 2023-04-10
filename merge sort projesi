@@ -1,0 +1,14 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+--------------------------------------------------
+ilk adımda dizi iki parçaya bölünür, bu dizinin eleman sayısı çift olduğu için eşit iki parçaya bölünür;
+                [16,21,11,8,12,22]
+      [16,21,11]                   [8,12,22]               elemanlar eşit iki parçaya bölündü 
+[16]  [21,11]                  [8] [12,22]                 iki parçaya bölünen elemanlar tekrar ikiye bölündü
+[16] [21] [11]                [8] [12] [22]                elemanlar tek tek ayrıldı
+[11,16,21]                     [8,12,22]                   tekli elemanlar sıralanarak gruplandırıldı
+[8,11,12,16,21,22]                                         dizi doğru bir şekilde sıralandı.
+
+Big-O gösterimi n(logn) dir.
